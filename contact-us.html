@@ -1,164 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stong Fm 99.3/contact</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link
-      rel="icon"
-      href="images/titile logo.PNG"
-      type="image/gif"
-      sizes="16x16"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
+    <link rel="icon" href="images/titile logo.PNG" type="image/gif" sizes="16x16">
+</head>
 
-  <body class="bg-black">
-    <header class="header" id="header">
-      <div class="logo">
-        <img src="/images/logo 02.png" alt="logo" />
-      </div>
+<body class="bg-black">
 
-      <div class="menu_icons" onclick="navbarToggle()">
-        <i
-          class="bx bx-menu"
-          style="color: #fff; font-size: 35px; cursor: pointer"
-        ></i>
-      </div>
+    <header class="header-section " style="position: fixed; z-index: 1; width: 100%;">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <nav id="nav" class="navbar navbar-expand-lg navbar-dark py-2  ">
+                    <a class="navbar-brand" href="/"><img class="pl-5" src="images/logo 02.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-      <ul class="nav_links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Live</a></li>
-        <li><a href="/">Videos</a></li>
-        <li><a href="/">Photos</a></li>
-        <li><a href="/">Contact Us</a></li>
-      </ul>
+                    <div class="nave-menu collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-auto mt-2 pr-5 mt-lg-0">
+                            <li class="nav-item pl-2 pr-2 active">
+                                <a class="nav-link text-uppercase font-weight-bold" href="/">Home <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item pl-3 pr-2">
+                                <a class="nav-link text-uppercase text-white font-weight-bold"
+                                    href="about.html">About</a>
+                            </li>
+                            <li class="nav-item pl-3 pr-2">
+                                <a class="nav-link text-uppercase text-white font-weight-bold"
+                                    href="https://www.facebook.com/Strong-Fm-993-101682024851057/live_videos/?ref=page_internal">Live</a>
+                            </li>
+                            <li class="nav-item pl-3 pr-2">
+                                <a class="nav-link text-uppercase text-white font-weight-bold"
+                                    href="https://www.facebook.com/Strong-Fm-993-101682024851057/videos/?ref=page_internal">Vedeos</a>
+                            </li>
+                            <li class="nav-item pl-3 pr-2">
+                                <a class="nav-link text-uppercase text-white font-weight-bold"
+                                    href="https://www.facebook.com/Strong-Fm-993-101682024851057/photos/?ref=page_internal">Photos</a>
+                            </li>
+                            <li class="nav-item pl-3 pr-2">
+                                <a class="nav-link text-uppercase text-white font-weight-bold"
+                                    href="contact-us.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section id="contact-page" class="contact-section pt-5 pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3
-              class="
-                contact-page-heding
-                text-uppercase
-                pb-4
-                font-weight-bold
-                custom-font-h3
-                text-center text-white
-              "
-            >
-              Contact Us
-            </h3>
-          </div>
-          <div class="col-lg-6 col-md-8">
-            <div class="contact-box">
-              <form id="submit-form" action="">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Name Here"
-                    name="name"
-                  />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3
+                        class=" contact-page-heding text-uppercase pb-4 font-weight-bold custom-font-h3 text-center text-white ">
+                        Contact Us</h3>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Email Here"
-                    name="mail"
-                  />
+                <div class="col-lg-6 col-md-8">
+                    <div class="contact-box">
+                        <form id="submit-form" action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name Here" name="name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email Here" name="mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Contact Number Here"
+                                    name="contact">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Message" name="message"></textarea>
+                            </div>
+                            <div class="form-group text-center">
+                                <button class="text-uppercase btn btn-success" type="submit">Send message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="number"
-                    class="form-control"
-                    placeholder="Contact Number Here"
-                    name="contact"
-                  />
+                <div class="col-lg-6 col-md-4">
+                    <div class="address-box text-white text-center text-md-left pl-lg-5">
+                        <p><strong>Stong Fm 99.3</strong><br>
+                            Calicut, Calicut (Post)<br>
+                            Calicut, Kerala<br>
+                            PIN : 123456<br>
+                            India<br>
+                            Call : <a class="text-white text-decoration-none" href="tel:97453 53643">+91
+                                9745353643</a><br>
+                            Mail : <a class="text-white text-decoration-none"
+                                href="mailto:faizalkpb@gmail.com">strongfm993@gmail.com</a></p>
+                    </div>
                 </div>
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    placeholder="Message"
-                    name="message"
-                  ></textarea>
-                </div>
-                <div class="form-group text-center">
-                  <button class="text-uppercase btn btn-success" type="submit">
-                    Send message
-                  </button>
-                </div>
-              </form>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-4">
-            <div
-              class="address-box text-white text-center text-md-left pl-lg-5"
-            >
-              <p>
-                <strong>Stong Fm 99.3</strong><br />
-                Calicut, Calicut (Post)<br />
-                Calicut, Kerala<br />
-                PIN : 123456<br />
-                India<br />
-                Call :
-                <a
-                  class="text-white text-decoration-none"
-                  href="tel:97453 53643"
-                  >+91 9745353643</a
-                ><br />
-                Mail :
-                <a
-                  class="text-white text-decoration-none"
-                  href="mailto:faizalkpb@gmail.com"
-                  >strongfm993@gmail.com</a
-                >
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <script>
-      $("#submit-form").submit((e) => {
-        e.preventDefault();
-        $.ajax({
-          url: "https://script.google.com/macros/s/AKfycbzxqqxrImzjDWs2N9szKx4wjO39W7R1nWYXsbVychpZQqkQy2BGXgcIRf07WMeqlNYhzw/exec",
-          data: $("#submit-form").serialize(),
-          method: "post",
-          success: function (response) {
-            alert("Message submitted successfully");
-            window.location.reload();
-            //window.location.href="https://google.com"
-          },
-          error: function (err) {
-            alert("Something Error");
-          },
-        });
-      });
+        $("#submit-form").submit((e) => {
+            e.preventDefault()
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbzxqqxrImzjDWs2N9szKx4wjO39W7R1nWYXsbVychpZQqkQy2BGXgcIRf07WMeqlNYhzw/exec",
+                data: $("#submit-form").serialize(),
+                method: "post",
+                success: function (response) {
+                    alert("Message submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error: function (err) {
+                    alert("Something Error")
 
-      function navbarToggle() {
-        document.getElementById("header").classList.toggle("show");
-      }
+                }
+            })
+        })
     </script>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
