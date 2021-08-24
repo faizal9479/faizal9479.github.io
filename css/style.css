@@ -146,6 +146,9 @@ body {
 .about-page-section {
     padding-top: 100px;
 }
+.about-page-section h3 {
+   cursor: pointer;
+}
 
 .swich-mor-info {
     margin-left: 10px;
@@ -158,6 +161,9 @@ body {
     padding-bottom: 85px;
     align-items: center;
 }
+.managment h2{
+    cursor: pointer;
+}
 .img-clas{
     padding-top: 10px;
 }
@@ -165,6 +171,10 @@ body {
     background-image: url(../images/footer-bk01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+.about-program-deatails h2{
+    cursor: pointer;
 }
 .program-deatails-li{
     padding: 5px;
