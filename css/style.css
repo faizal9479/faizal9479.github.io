@@ -139,7 +139,7 @@ body {
 
 
 
-/* -----about page condact section---- */
+/* -----about page managment section---- */
 
 .managment{
   padding-top: 20px;
@@ -149,7 +149,9 @@ body {
 .managment h2{
   cursor: pointer;
 }
-
+.managment h4{
+  font-size: 20px;
+}
 
 
 /* <!-- ---------about page program-deatails-------- --> */
