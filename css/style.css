@@ -154,8 +154,12 @@ body {
 
 /* <!-- ---------about page program-deatails-------- --> */
 
-
-
+.about-program-deatails{
+  padding-top: 100px;
+}
+.program-page-deatails{
+  margin-top: 20px;
+}
 .li-name{
 transition: 400ms;
 }
