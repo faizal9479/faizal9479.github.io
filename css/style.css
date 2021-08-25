@@ -326,4 +326,7 @@ transition: 400ms;
   #img-logo{
       padding-top: 50px;
   }
+  .logo{
+    padding-left: 2px;
+  }
 }
