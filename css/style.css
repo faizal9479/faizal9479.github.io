@@ -93,16 +93,18 @@ body {
  cursor: pointer;
 }
 
-.about-program-deatails{
-  background-image: url(../images/footer-bk01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 #about-section {
   padding-top: 85.9px;
 }
 .names h2{
   font-size: 25px;
+}
+.about-para  {
+  text-align: center;
+}
+.about-section p br{
+  display: none;
 }
 
 
@@ -126,7 +128,11 @@ body {
 #shedul-sectin {
   border-radius: 10px;
 }
-
+.about-program-deatails{
+  background-image: url(../images/footer-bk01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 /* -----about page managment section---- */
@@ -186,15 +192,7 @@ transition: 400ms;
   cursor: pointer;
   margin-left: 10px;
 }
-/* #progrm-page-sheduld-section-rjname{
-  cursor: pointer;
-}
-#progrm-page-sheduld-section-rjname{
-  font-size: 50px;
-} */
 
-
-/* -----condact section ------- */
 
 .contact-section {
   background-image: url(../images/footer-bk01.jpg);
@@ -255,6 +253,9 @@ transition: 400ms;
   .about-page-section-heding-div{
     padding-top: 20px;
   }
+  .about-section p {
+    text-align: justify;
+  }
 } 
 
 @media (max-width:400px) {
@@ -272,6 +273,12 @@ transition: 400ms;
   }
   .rj-section h3{
     font-size: 36px;
+  }
+  .about-para{
+    text-align: justify;
+  }
+  .about-section p span{
+    display: none;
   }
 } 
 
@@ -298,7 +305,12 @@ transition: 400ms;
   .about-page-section-heding-div{
     padding-top: 10px;
   }
-  
+  .about-section p span{
+    display: none;
+  }
+  .about-para{
+    text-align: justify;
+  }
 } 
 
 /* ----samsung fold ---- */
@@ -320,6 +332,11 @@ transition: 400ms;
   .about-page-section-heding-div{
     padding-top: 10px;
   }
-  
+  .about-section p span{
+    display: none;
+  }
+  .about-para{
+    text-align: justify;
+  }
 } 
 
