@@ -35,9 +35,9 @@ body {
   background-color: black;
 }
 
-#logo {
-  width: 30px;
-  height: 30px;
+.logo {
+  width: 250px;
+  padding-left: 50px;
 }
 #nav {
   background-color: black;
@@ -139,9 +139,9 @@ body {
 .managment h2{
   cursor: pointer;
 }
-.managment h4{
+/* .managment h4{
   font-size: 20px;
-}
+} */
 
 
 /* <!-- ---------about page program-deatails-------- --> */
@@ -151,6 +151,9 @@ body {
 }
 .program-page-deatails{
   margin-top: 20px;
+}
+.program-page-deatails h3{
+ font-size: 40px;
 }
 #progrm-page-sheduld-heding{
   cursor: pointer;
@@ -183,9 +186,12 @@ transition: 400ms;
   cursor: pointer;
   margin-left: 10px;
 }
-#progrm-page-sheduld-section-rjname{
+/* #progrm-page-sheduld-section-rjname{
   cursor: pointer;
 }
+#progrm-page-sheduld-section-rjname{
+  font-size: 50px;
+} */
 
 
 /* -----condact section ------- */
@@ -236,94 +242,84 @@ transition: 400ms;
 
 /* ----------------------------- */
 
+@media (max-width:600px) {
+  .logo{
+    width: 220px;
+  }
+  .carousel{
+    padding-top: 36.5px;
+  }
+  .Programes-section h3{
+    font-size: 32px;
+  }
+  .about-page-section-heding-div{
+    padding-top: 20px;
+  }
+} 
+
+@media (max-width:400px) {
+  .logo{
+    width: 220px;
+  }
+  .carousel{
+    padding-top: 36.5px;
+  }
+  .Programes-section h3{
+    font-size: 28px;
+  }
+  .about-page-section-heding-div{
+    padding-top: 20px;
+  }
+  .rj-section h3{
+    font-size: 36px;
+  }
+} 
+
+/* ----iphon 5s ---- */
 
 
-@media(max-width:414){
-  .navbar {
-      height:500px;
+@media (max-width:320px) {
+  .logo{
+    width: 180px;
+    padding-left: 10px;
   }
-}
-@media(max-width:568px) {
-  #sheduld-prg-heding {
-      font-size: 25px;
+  .carousel{
+    padding-top: 36.5px;
   }
-}
-
-@media(max-width:667px) {
-  #sheduld-prg-heding {
-      font-size: 10px;
+  .rj-section{
+    padding-top: 10px;
   }
-}
-@media(max-width:700px) {
-  .header-section .navbar-brand img {
-      width: 200px;
+  .rj-section h3{
+    font-size: 33px;
   }
-}
-@media(max-width:720px) {
-  .navbar {
-      height: 68.5px;
+  .Programes-section h3{
+    font-size: 25px;
   }
-  .about-page-section{
-      padding-top: 95px;
-  }   
-}
-@media(max-width:736px) {
-  #social-link-text {
-      font-size: 18px;
-  }
-  #sheduld-prg-heding {
-      font-size: 33px;
-  }
-  .navbar {
-      height: 68.5px;
-  }
-  .carousel {
-      padding-top: 35px;
-  }
-  .navbar-nav {
-      width: 100%;
-  }
-  .about-section {
-      padding-top: 35px;
-  }
-  .service-section {
-      padding-top: 315px;
-  }
-  .about-page-section {
-      padding-top: 80px;
+  .about-page-section-heding-div{
+    padding-top: 10px;
   }
   
-}
-@media (max-width:823px) {
-  .navbar {
-      height: 81.5px;
-  }
-}
-@media(max-width:991px) {
-  #focuzSlider .carousel-caption h2 {
-      font-size: 36px;
-  }
-}
-@media(max-width:1024px) {
-  .navbar {
-      height: 68px;
-      
-  }
-  .about-page-section {
-      padding-top: 50px;
-  }
+} 
+
+/* ----samsung fold ---- */
+
+@media (max-width:280px) {
   .logo{
-      width:250px;
+    width: 150px;
+    padding-left: 10px;
   }
-}
-@media (max-width:1366px) {
   .carousel{
-      padding-top: 35px;
+    padding-top: 36.5px;
   }
-  #img-logo{
-      padding-top: 50px;
+  .Programes-section{
+    padding-top: 10px;
   }
-  .logo{
-    padding-left: 2px;
+  .rj-section h3{
+    font-size: 22px;
   }
-}
+  .about-page-section-heding-div{
+    padding-top: 10px;
+  }
+  
+} 
+
