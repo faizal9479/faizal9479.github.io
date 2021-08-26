@@ -253,8 +253,13 @@ transition: 400ms;
   .about-page-section-heding-div{
     padding-top: 20px;
   }
-  .about-section p {
+  .about-para{
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: justify;
+  }
+  .about-section p span{
+    display: none;
   }
 } 
 
@@ -275,6 +280,8 @@ transition: 400ms;
     font-size: 36px;
   }
   .about-para{
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: justify;
   }
   .about-section p span{
@@ -309,6 +316,8 @@ transition: 400ms;
     display: none;
   }
   .about-para{
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: justify;
   }
 } 
@@ -336,6 +345,8 @@ transition: 400ms;
     display: none;
   }
   .about-para{
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: justify;
   }
 } 
