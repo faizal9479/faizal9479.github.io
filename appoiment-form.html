@@ -92,7 +92,7 @@
                                 <textarea class="form-control" placeholder="Message" name="message"></textarea>
                             </div>
                             <div class="form-group text-center">
-                                <button class="text-uppercase btn btn-success" type="submit">Send message</button>
+                                <button class="text-uppercase btn btn-success" type="submit">Take a appoiment</button>
                             </div>
                         </form>
                     </div>
@@ -109,7 +109,7 @@
         $("#submit-form").submit((e) => {
             e.preventDefault()
             $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbzxqqxrImzjDWs2N9szKx4wjO39W7R1nWYXsbVychpZQqkQy2BGXgcIRf07WMeqlNYhzw/exec",
+                url: "https://script.google.com/macros/s/AKfycbwNmmBrkkf5G0R2Nyami_AEXBNQOPIAa4n3Y5fkdeK0QFp-M2KJaHk-i_WbjEeIZHbl/exec",
                 data: $("#submit-form").serialize(),
                 method: "post",
                 success: function (response) {
