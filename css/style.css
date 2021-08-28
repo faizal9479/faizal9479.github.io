@@ -46,6 +46,9 @@ body {
 #navbarTogglerDemo02 {
   width: 100%;
 }
+.nav-link{
+  transition: 500ms;
+}
 .nav-link:hover {
   padding: 5px;
   background: none;
