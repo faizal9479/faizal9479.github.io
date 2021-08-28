@@ -274,6 +274,7 @@ transition: 400ms;
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
+    text-align-last: center;
   }
   /* .about-section p span{
     display: none;
@@ -302,6 +303,7 @@ transition: 400ms;
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
+    text-align-last: center;
   }
   /* .about-section p span{
     display: none;
@@ -338,6 +340,7 @@ transition: 400ms;
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
+    text-align-last: center;
   }
 } 
 
@@ -367,6 +370,7 @@ transition: 400ms;
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
+    text-align-last: center;
   }
 } 
 
