@@ -37,7 +37,8 @@ body {
 
 .logo {
   width: 250px;
-  padding-left: 50px;
+  padding-left: 100px;
+  /* margin-left: 70px; */
 }
 #nav {
   background-color: black;
@@ -48,6 +49,7 @@ body {
 }
 .nav-link{
   transition: 500ms;
+ 
 }
 .nav-link:hover {
   padding: 5px;
@@ -273,9 +275,10 @@ transition: 400ms;
     padding-right: 15px;
     text-align: justify;
   }
-  .about-section p span{
+  /* .about-section p span{
     display: none;
-  }
+  } */
+  
 } 
 
 @media (max-width:400px) {
@@ -300,9 +303,9 @@ transition: 400ms;
     padding-right: 15px;
     text-align: justify;
   }
-  .about-section p span{
+  /* .about-section p span{
     display: none;
-  }
+  } */
 } 
 
 /* ----iphon 5s ---- */
@@ -328,9 +331,9 @@ transition: 400ms;
   .about-page-section-heding-div{
     padding-top: 10px;
   }
-  .about-section p span{
+  /* .about-section p span{
     display: none;
-  }
+  } */
   .about-para{
     padding-left: 15px;
     padding-right: 15px;
@@ -357,9 +360,9 @@ transition: 400ms;
   .about-page-section-heding-div{
     padding-top: 10px;
   }
-  .about-section p span{
+  /* .about-section p span{
     display: none;
-  }
+  } */
   .about-para{
     padding-left: 15px;
     padding-right: 15px;
