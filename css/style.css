@@ -223,7 +223,9 @@ transition: 400ms;
   padding-top: 100px;
 }
 
-
+.appoiment-page {
+  height: 100vh;
+}
 
 
 /* -----foooter---- */
