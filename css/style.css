@@ -245,6 +245,7 @@ transition: 400ms;
 @media (max-width:600px) {
   .logo{
     width: 220px;
+    padding-left: 5%;
   }
   .carousel{
     padding-top: 36.5px;
@@ -268,6 +269,7 @@ transition: 400ms;
 @media (max-width:400px) {
   .logo{
     width: 220px;
+    padding-left: 0%;
   }
   .carousel{
     padding-top: 36.5px;
@@ -297,7 +299,7 @@ transition: 400ms;
 @media (max-width:320px) {
   .logo{
     width: 180px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .carousel{
     padding-top: 36.5px;
@@ -329,7 +331,7 @@ transition: 400ms;
 @media (max-width:280px) {
   .logo{
     width: 150px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .carousel{
     padding-top: 36.5px;
