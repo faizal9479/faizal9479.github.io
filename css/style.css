@@ -241,6 +241,15 @@ transition: 400ms;
 
 
 /* ----------------------------- */
+@media (max-width:1366px) {
+  .logo{
+    width: 220px;
+    padding-left: 10%;
+  }
+  .appoimnt-ipad{
+   display: none;
+  }
+} 
 
 @media (max-width:600px) {
   .logo{
