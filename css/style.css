@@ -279,7 +279,9 @@ transition: 400ms;
   /* .about-section p span{
     display: none;
   } */
-  
+  .carousel{
+   padding-top: 42px;
+  }
 } 
 
 @media (max-width:400px) {
@@ -305,6 +307,9 @@ transition: 400ms;
     text-align: justify;
     text-align-last: center;
   }
+  .carousel{
+    padding-top: 44px;
+   }
   /* .about-section p span{
     display: none;
   } */
@@ -342,6 +347,9 @@ transition: 400ms;
     text-align: justify;
     text-align-last: center;
   }
+  .carousel{
+    padding-top: 39px;
+   }
 } 
 
 /* ----samsung fold ---- */
@@ -372,5 +380,8 @@ transition: 400ms;
     text-align: justify;
     text-align-last: center;
   }
+  .carousel{
+    padding-top: 34px;
+   }
 } 
 
