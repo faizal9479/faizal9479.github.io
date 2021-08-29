@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-  width: 250px;
+  width: 300px;
   padding-left: 100px;
   /* margin-left: 70px; */
 }
@@ -112,7 +112,10 @@ body {
   display: none;
 }
 
-
+/* --------img----- */
+.progrm-imag{
+  width: 350px;
+}
 
 /* -----shedulesd program----- */
 
@@ -138,6 +141,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 
 /* -----about page managment section---- */
@@ -259,7 +263,7 @@ transition: 400ms;
 @media (max-width:600px) {
   .logo{
     width: 220px;
-    padding-left: 5%;
+    padding-left: 0%;
   }
   .carousel{
     padding-top: 36.5px;
