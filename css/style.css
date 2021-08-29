@@ -114,7 +114,7 @@ body {
 
 /* --------img----- */
 .progrm-imag{
-  width: 350px;
+  width: 355px;
 }
 
 /* -----shedulesd program----- */
@@ -263,7 +263,7 @@ transition: 400ms;
 @media (max-width:600px) {
   .logo{
     width: 220px;
-    padding-left: 0%;
+    padding-left: 5%;
   }
   .carousel{
     padding-top: 36.5px;
