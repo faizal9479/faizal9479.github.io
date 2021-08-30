@@ -116,7 +116,9 @@ body {
 .progrm-imag{
   width: 355px;
 }
-
+.section-hed{
+  cursor: pointer;
+}
 /* -----shedulesd program----- */
 
 .program-time {
