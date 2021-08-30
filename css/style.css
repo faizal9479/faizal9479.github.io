@@ -112,13 +112,28 @@ body {
   display: none;
 }
 
-/* --------img----- */
+/* --------unorder start----- */
+
+
+
+
 .progrm-imag{
   width: 355px;
 }
 .section-hed{
   cursor: pointer;
 }
+.rjname{
+  cursor: pointer;
+}
+
+
+
+
+/* --------unorder end----- */
+
+
+
 /* -----shedulesd program----- */
 
 .program-time {
