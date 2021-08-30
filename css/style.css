@@ -48,7 +48,7 @@ body {
   width: 100%;
 }
 .nav-link{
-  transition: 500ms;
+  transition: 400ms;
  
 }
 .nav-link:hover {
