@@ -17,6 +17,9 @@
 </head>
 
 <body class="bg-black">
+    <div id="loader"></div>
+
+
 
     <header class="header-section " style="position: fixed; z-index: 1; width: 100%;">
         <div class="row">
@@ -326,7 +329,14 @@
         </footer>
 
 
+        <script>
 
+            var loader= document.getElementById("loader");
+            window.addEventListener("load", function(){
+              loader.style.display="none"
+            })
+        
+          </script>
 
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

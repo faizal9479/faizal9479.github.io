@@ -14,6 +14,7 @@
 </head>
 
 <body class="bg-black">
+  <div id="loader"></div>
 
   <section class="header-section " style="position: fixed; z-index: 1; width: 100%;">
     <div class="row">
@@ -27,12 +28,10 @@
 
           <div class="nave-menu collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 pr-5 mt-lg-0">
-
               <li class="nav-item pl-2 pr-2 active">
-                <a class="nav-link text-uppercase font-weight-bold" href="index.html">Home <span
+                <a class="nav-link  text-uppercase text-red font-weight-bold text" href="index.html">Home <span
                     class="sr-only">(current)</span></a>
               </li>
-
               <li class="nav-item pl-3 pr-2">
                 <a class="nav-link text-uppercase text-white font-weight-bold" href="about.html">About</a>
               </li>
@@ -43,23 +42,21 @@
                 <a class="nav-link text-uppercase text-white font-weight-bold"
                   href="https://www.facebook.com/Strong-Fm-993-101682024851057/live_videos/?ref=page_internal">Live</a>
               </li>
-
               <li class="nav-item pl-3 pr-2">
                 <a class="nav-link text-uppercase text-white font-weight-bold"
                   href="https://www.facebook.com/Strong-Fm-993-101682024851057/videos/?ref=page_internal">Videos</a>
               </li>
-
               <li class="nav-item pl-3 pr-2">
                 <a class="nav-link text-uppercase text-white font-weight-bold"
                   href="https://www.facebook.com/media/set/?vanity=101682024851057&set=a.101684881517438">Photos</a>
               </li>
               <!-- <li class="nav-item pl-3 pr-2">
-                <a class="nav-link text-uppercase text-white font-weight-bold" href="appoiment-form.html"><span class="appoimnt-ipad">Take an </span> Appoiment</a>
+                <a class="nav-link text-uppercase text-white font-weight-bold" href="appoiment-form.html"><span
+                    class="appoimnt-ipad">Take an </span> Appoiment</a>
               </li> -->
               <li class="nav-item pl-3 pr-2">
-                <a class="nav-link text-uppercase text-white font-weight-bold" href="contact-us.html">Contact </a>
+                <a class="nav-link text-uppercase text-white font-weight-bold" href="contact-us.html">Contact</a>
               </li>
-
             </ul>
           </div>
         </nav>
@@ -137,7 +134,7 @@
 
 
  <!-- ---------JOIN WITH US ----- -->
-<section class="join-us">
+<!-- <section class="join-us">
   <div class="container ">
     <div class="row">
       <div class=" icons">
@@ -168,7 +165,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
   <!-- -----footer--- -->
@@ -179,7 +176,14 @@
   </footer>
 
 
+  <script>
 
+    var loader= document.getElementById("loader");
+    window.addEventListener("load", function(){
+      loader.style.display="none"
+    })
+
+  </script>
 
 
   

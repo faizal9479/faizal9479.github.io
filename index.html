@@ -17,6 +17,10 @@
 
 <body class=" bg-black">
 
+  <!-- -------loder------ -->
+  <div id="loader"></div>
+
+
   <!-- --------Heder------- -->
 
 
@@ -419,7 +423,14 @@
 
   // </script>
 
+    <script>
 
+      var loader= document.getElementById("loader");
+      window.addEventListener("load", function(){
+        loader.style.display="none"
+      })
+
+    </script>
 
 
 
