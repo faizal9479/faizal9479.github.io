@@ -51,17 +51,20 @@ body {
   transition: 400ms;
  
 }
-.nav-link:hover {
-  padding: 5px;
-  background: none;
-  color: black;
-  border: 10px;
-  outline: 5px;
-  border-radius: 5px;
-  font-weight: 500;
+
+
+.nave-menu ul li::after{
+  content: "";
+    width: 0%;
+    height: 2px;
+    background:#5cb85c;
+    display: block;
+    margin: auto;
+    transition: 400ms ease-out;
 }
-
-
+.nave-menu ul li:hover::after{
+  width: 100%;  
+}
 /* -----------curosal----- */
 
 
@@ -187,9 +190,6 @@ body {
 .managment h2{
   cursor: pointer;
 }
-/* .managment h4{
-  font-size: 20px;
-} */
 
 
 /* <!-- ---------about page program-deatails-------- --> */
@@ -419,6 +419,22 @@ font-weight: 350;
 
  /* -----foooter end---- */
 
+ #loader{
+  background: black url(../images/loder.gif) no-repeat center center;
+  background-size: 50%;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+
 
 /* ----------------------------- */
 @media (max-width:1366px) {
@@ -442,6 +458,14 @@ font-weight: 350;
     }
     .line{
       display: none;
+    }
+    #loader{
+      background: black url(../images/loder.gif) no-repeat center center;
+      background-size: 100%;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: 100;
     }
 
 
@@ -531,6 +555,14 @@ font-weight: 350;
 
   
   /* -----foooter end ---- */
+  #loader{
+    background: black url(../images/loder.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+  }
   
 } 
 
@@ -562,6 +594,14 @@ font-weight: 350;
   .carousel{
     padding-top: 44px;
    }
+   #loader{
+    background: black url(../images/loder.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+  }
   
 } 
 
@@ -598,6 +638,14 @@ font-weight: 350;
   .carousel{
     padding-top: 39px;
    }
+   #loader{
+    background: black url(../images/loder.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+  }
 } 
 
 /* ----samsung fold ---- */
@@ -629,13 +677,14 @@ font-weight: 350;
   .carousel{
     padding-top: 34px;
    }
+   #loader{
+    background: black url(../images/loder.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+  }
 } 
 
-#loader{
-  background: black url(../images/loder.gif) no-repeat center center;
-  background-size: 100%;
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  z-index: 100;
-}
+
