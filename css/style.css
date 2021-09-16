@@ -638,7 +638,7 @@ font-weight: 350;
 } 
 
 #loader{
-  background: black url(../images/LODER.gif) no-repeat center center;
+  background: black url(../images/loder.gif) no-repeat center center;
   background-size: 50%;
   height: 100vh;
   width: 100%;
