@@ -3,19 +3,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stong Fm 99.3/contact</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Stong Fm 99.3</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" href="images/titile logo.PNG" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 
 
@@ -31,7 +32,6 @@
 
 
 
-
 </head>
 
 <body class="bg-black">
@@ -39,56 +39,31 @@
 
 
 
-    <header class="header-section " style="position: fixed; z-index: 1; width: 100%;">
-        <div class="row">
-            <div class="col-lg-12 ">
-                <nav id="nav" class="navbar navbar-expand-lg navbar-dark py-2  ">
-                    <a class="  navbar-brand" href="#"><img class=" logo " src="images/logo.png"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <section class="heder">
 
-                    <div class="nave-menu collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav ml-auto mt-2 pr-5 mt-lg-0">
-                            <li class="nav-item pl-2 pr-2 active">
-                                <a class="nav-link text-uppercase font-weight-bold" href="index.html">Home <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item pl-3 pr-2">
-                                <a class="nav-link text-uppercase text-white font-weight-bold"
-                                    href="about.html">About</a>
-                            </li>
-                            <li class="nav-item pl-3 pr-2">
-                                <a class="nav-link text-uppercase text-white font-weight-bold"
-                                    href="about.html">Programes</a>
-                            </li>
-                            <li class="nav-item pl-3 pr-2">
-                                <a class="nav-link text-uppercase text-white font-weight-bold"
-                                    href="https://www.facebook.com/Strong-Fm-993-101682024851057/live_videos/?ref=page_internal">Live</a>
-                            </li>
-                            <li class="nav-item pl-3 pr-2">
-                                <a class="nav-link text-uppercase text-white font-weight-bold"
-                                    href="https://www.facebook.com/Strong-Fm-993-101682024851057/videos/?ref=page_internal">Videos</a>
-                            </li>
-                            <li class="nav-item pl-3 pr-2">
-                                <a class="nav-link text-uppercase text-white font-weight-bold"
-                                    href="https://www.facebook.com/media/set/?vanity=101682024851057&set=a.101684881517438">Photos</a>
-                            </li>
-                            <!-- <li class="nav-item pl-3 pr-2">
-                                <a class="nav-link text-uppercase text-white font-weight-bold" href="appoiment-form.html"><span class="appoimnt-ipad">Take an </span> Appoiment</a>
-                              </li> -->
-                            <li class="nav-item pl-3 pr-2">
-                                <a class="nav-link text-uppercase text-white font-weight-bold"
-                                    href="contact-us.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div id="navMenubar" class="nav-links">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="programs.html">programs</a></li>
+                    <li><a
+                            href="https://www.facebook.com/Strong-Fm-993-101682024851057/live_videos/?ref=page_internal">Live</a>
+                    </li>
+                    <li><a href="https://www.facebook.com/Strong-Fm-993-101682024851057/videos/?ref=page_internal">
+                            vedios</a></li>
+                    <li><a
+                            href="https://www.facebook.com/media/set/?vanity=101682024851057&set=a.101684881517438">PHOTOS</a>
+                    </li>
+                    <li><a href="contact-us.html">contact us</a></li>
+                </ul>
             </div>
-        </div>
-    </header>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
 
     <body>
         <section class="about-program-deatails pb-5 text-white">
@@ -328,110 +303,123 @@
 
                 </div>
         </section>
-       
+
 
 
 
         <!-- -----foootr---- -->
 
-  <footer class="footer-div">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <img class="footer-logo" src="images/logo.png" alt="">
-          <p class="footer-para"> Strong FM 99.3 is the local go-to station for our beautiful listeners of all ages. Let
-            our popular
-            shows
-            spin you fun from across the globe or tune in for our morning show.</p>
-        </div>
-        <div class="rj-name-foot col-lg-6">
-          <h2 class="footer-rj-names-heding">Strong Fm 99.3  Radio Jokies</h2>
-          <div class="rj-name-foo row">
-            <div class="col-6 col-md-6">
-              <ul>
-                <li>
-                  <a href="">RJ ARYA</a>
-                </li>
-                <li>
-                  <a href="">RJ ANJALI</a>
-                </li>
-                <li>
-                  <a href="">RJ ShyamDas</a>
-                </li>
-                <li>
-                  <a href="">RJ Kalyani</a>
-                </li>
-                <li>
-                  <a href="">RJ SUJISHA</a>
-                </li>
-                <li>
-                  <a href="">RJ Ranjini Sajith</a>
-                </li>
-                <li>
-                  <a href="">RJ Soura Sajith</a>
-                </li>
+        <footer class="footer-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img class="footer-logo" src="images/logo.png" alt="">
+                        <p class="footer-para"> Strong FM 99.3 is the local go-to station for our beautiful listeners of
+                            all ages. Let
+                            our popular
+                            shows
+                            spin you fun from across the globe or tune in for our morning show.</p>
+                    </div>
+                    <div class="rj-name-foot col-lg-6">
+                        <h2 class="footer-rj-names-heding">Strong Fm 99.3 Radio Jokies</h2>
+                        <div class="rj-name-foo row">
+                            <div class="col-6 col-md-6">
+                                <ul>
+                                    <li>
+                                        <a href="">RJ ARYA</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ ANJALI</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ ShyamDas</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ Kalyani</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ SUJISHA</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ Ranjini Sajith</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ Soura Sajith</a>
+                                    </li>
 
-              </ul>
+                                </ul>
+                            </div>
+                            <div class="col-6  col-md-6">
+                                <ul>
+                                    <li>
+                                        <a href="">RJ Soorya</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ Swathy</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ MAYA</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ AMBILI</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ AMRUTHA</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RJ Rahul</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="social-maind col-lg-2">
+                        <h2 class="social-heding">follow us on</h2>
+                        <div class="social-div">
+                            <a href="https://www.facebook.com/Strong-Fm-993-101682024851057" target="_blank"><i
+                                    class="fab fa-facebook-square"></i>facebook</a>
+                            <a href="https://instagram.com/strongfm99.3?utm_medium=copy_link" target="_blank"><i
+                                    class="fab fa-instagram"></i>instgram</a>
+                            <a href="https://www.youtube.com/channel/UCMfGnoVFUBg9Aqv9YqBTJIw" target="_blank"><i
+                                    class="fab fa-youtube"></i>youtub</a>
+                            <!-- <a href="#"><i class="fab fa-telegram" ></i>telagram</a> -->
+                            <a href="https://wa.me/97453 53643" target="_blank"><i
+                                    class="fab fa-whatsapp"></i>whatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="w-line col-lg-1">
+
+                    </div>
+
+
+                </div>
             </div>
-            <div class="col-6  col-md-6">
-              <ul>
-                <li>
-                  <a href="">RJ Soorya</a>
-                </li>
-                <li>
-                  <a href="">RJ Swathy</a>
-                </li>
-                <li>
-                  <a href="">RJ MAYA</a>
-                </li>
-                <li>
-                  <a href="">RJ AMBILI</a>
-                </li>
-                <li>
-                  <a href="">RJ AMRUTHA</a>
-                </li>
-                <li>
-                  <a href="">RJ Rahul</a>
-                </li>
 
-              </ul>
+            <hr class="hr-last">
+
+            <div id="footer">
+                <p class="text-white-50">Copyright &copy; 2021 Stong Fm 99.3</p>
             </div>
 
-          </div>
+
+        </footer>
 
 
-        </div>
-        <div class="social-maind col-lg-2">
-          <h2 class="social-heding">follow us on</h2>
-          <div class="social-div">
-            <a href="https://www.facebook.com/Strong-Fm-993-101682024851057" target="_blank"><i class="fab fa-facebook-square"></i>facebook</a>
-            <a href="https://instagram.com/strongfm99.3?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i>instgram</a>
-            <a href="https://www.youtube.com/channel/UCMfGnoVFUBg9Aqv9YqBTJIw" target="_blank"><i class="fab fa-youtube"></i>youtub</a>
-            <!-- <a href="#"><i class="fab fa-telegram" ></i>telagram</a> -->
-            <a href="https://wa.me/97453 53643" target="_blank"><i class="fab fa-whatsapp"></i>whatsApp</a>
-          </div>
-        </div>
-
-        <div class="w-line col-lg-1">
-          
-        </div>
-
-
-      </div>
-    </div>
-
-    <hr class="hr-last">
-
-    <div id="footer">
-      <p class="text-white-50">Copyright &copy; 2021 Stong Fm 99.3</p>
-    </div>
-
-
-  </footer>
-
-
- <!-- ------footer end ------ -->
-
+        <!-- ------footer end ------ -->
+        <script>
+            var navb = document.getElementById("navMenubar");
+            function showMenu() {
+                navb.style.right = "0"
+            }
+            function hideMenu() {
+                navb.style.right = "-200px"
+            }
+        </script>
 
         <script>
 
@@ -442,6 +430,10 @@
 
         </script>
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+            integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+            integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+            crossorigin="anonymous"></script>
     </body>

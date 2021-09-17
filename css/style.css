@@ -21,51 +21,60 @@ body {
 
 /* ------navbar----- */
 
-.header-section {
-  position: fixed;
+
+.heder{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+  position: fixed; 
   z-index: 1;
-  width: 100%;
+  align-items: center;
 }
-
-.navbar-toggler {
-  background-color: black;
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 6px;
 }
-
-.navbar-nav {
-  background-color: black;
+nav .fas{
+  display: none;
 }
-
-.logo {
-  width: 300px;
-  padding-left: 100px;
-  /* margin-left: 70px; */
+nav img{
+  width: 230px;
+  cursor: pointer;
+  padding-left: 2%;
 }
-#nav {
-  background-color: black;
+.nav-links{
+  flex: 1;
+  text-align: right;
 }
-
-#navbarTogglerDemo02 {
-  width: 100%;
+.nav-links ul li{
+list-style: none;
+position: relative;
+display: inline-block;
+padding: 15px;
+padding-right: 2%;
 }
-.nav-link{
-  transition: 400ms;
- 
+.nav-links ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
 }
-
-
-.nave-menu ul li::after{
+.nav-links ul li::after{
   content: "";
-    width: 0%;
-    height: 2px;
-    background:#5cb85c;
-    display: block;
-    margin: auto;
-    transition: 400ms ease-out;
+  width: 0%;
+  height: 2px;
+  background: #5cb85c;
+  display: block;
+  margin: auto;
+  transition: 400ms ease-out;
 }
-.nave-menu ul li:hover::after{
+.nav-links ul li:hover::after{
   width: 100%;  
 }
-/* -----------curosal----- */
+
 
 
 
@@ -190,6 +199,9 @@ body {
 .managment h2{
   cursor: pointer;
 }
+/* .managment h4{
+  font-size: 20px;
+} */
 
 
 /* <!-- ---------about page program-deatails-------- --> */
@@ -243,6 +255,12 @@ border: white;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.address-box {
+  margin-left: 15%;
+}
+.form-group{
+  margin-top: 10px;
+}
 .contact-box .form-control {
   height: 50px;
 }
@@ -254,6 +272,7 @@ border: white;
 .address-box p {
   font-size: 16px;
   line-height: 28px;
+  margin-top: 10px;
 }
 
 .follow-link {
@@ -340,7 +359,9 @@ font-size: 15px;
 /* margin-left: 50px; */
 font-weight: 350;
 }
-
+.rj-name-foot ul li a:hover{
+  color: #5cb85c;
+  }
 
 /* -----foooter rj section end---- */
 
@@ -365,6 +386,14 @@ font-weight: 350;
   padding: o;
   margin: 0;
 }
+
+
+
+
+
+
+
+
 .social-div a{
   color: white;
   font-size: 15px;
@@ -373,8 +402,13 @@ font-weight: 350;
   line-height: 35px;
   text-align: justify;
   font-weight: 350;
-  
 }
+.social-div a:hover{
+  color: #5cb85c;
+}
+
+
+
 .social-div a .fab{
   margin-right: 15px;
   font-weight: 350;
@@ -421,7 +455,7 @@ font-weight: 350;
 
  #loader{
   background: black url(../images/loder.gif) no-repeat center center;
-  background-size: 50%;
+  background-size: 30%;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -435,6 +469,12 @@ font-weight: 350;
 
 
 
+
+
+
+
+
+ 
 
 /* ----------------------------- */
 @media (max-width:1366px) {
@@ -459,6 +499,7 @@ font-weight: 350;
     .line{
       display: none;
     }
+
     #loader{
       background: black url(../images/loder.gif) no-repeat center center;
       background-size: 100%;
@@ -467,20 +508,15 @@ font-weight: 350;
       position: relative;
       z-index: 100;
     }
-
-
 /* -----foooter rj section  end---- */
   
 } 
 
 @media (max-width:600px) {
-  .logo{
-    width: 220px;
-    padding-left: 5%;
-  }
-  .carousel{
+  
+  /* .carousel{
     padding-top: 36.5px;
-  }
+  } */
   .Programes-section h3{
     font-size: 32px;
   }
@@ -493,10 +529,58 @@ font-weight: 350;
     text-align: justify;
     text-align-last: center;
   }
-  
   .carousel{
    padding-top: 42px;
   }
+
+
+/* -----nav and heder end  ---- */
+
+
+
+  .logo{
+    width: 220px;
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+  .nav-links ul li{
+    display: block;
+    
+  }
+  .nav-links{
+  position: absolute;
+  background:#000000 ;
+  height: 100vh;
+  width: 200px;
+  top: 0;
+  right: -200px;
+  text-align: left;
+  z-index: 1;
+  transition: .4s;
+  }
+  nav .fas{
+    display: block;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+  }
+  nav .fa-times{
+    text-align: right;
+    padding-right: 10px;
+  } 
+  
+  /* -----nav and heder end  ---- */
+
+
+
+  /* ----------adress boxxx--------- */
+  .address-box {
+    margin-left: 0%;
+  }
+  .form-group button{
+    width: 100%;
+  }
+    /* ----------adress boxxx--------- */
 
 
 
@@ -517,7 +601,6 @@ font-weight: 350;
 
 
 /* -----foooter div end ---- */
-
 
 
 /* -----foooter rj section ---- */
@@ -551,28 +634,61 @@ font-weight: 350;
    
   }
 
+
   /* -----foooter social end---- */
 
   
   /* -----foooter end ---- */
   #loader{
-    background: black url(../images/loder.gif) no-repeat center center;
-    background-size: 100%;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    z-index: 100;
-  }
-  
+  background: black url(../images/loder.gif) no-repeat center center;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
 } 
 
 
 
 @media (max-width:400px) {
-  .logo{
-    width: 220px;
-    padding-left: 0%;
-  }
+  
+/* -----nav and heder end  ---- */
+
+
+
+.logo{
+  width: 220px;
+  padding-left: 5%;
+  padding-top: 10px;
+}
+.nav-links ul li{
+  display: block;
+  
+}
+.nav-links{
+position: absolute;
+background:#000000 ;
+height: 100vh;
+width: 200px;
+top: 0;
+right: -200px;
+text-align: left;
+z-index: 1;
+transition: .4s;
+}
+nav .fas{
+  display: block;
+  margin: 10px;
+  font-size: 30px;
+  color: white;
+}
+nav .fa-times{
+  text-align: right;
+  padding-right: 10px;
+} 
+
+/* -----nav and heder end  ---- */
   .carousel{
     padding-top: 36.5px;
   }
@@ -594,25 +710,68 @@ font-weight: 350;
   .carousel{
     padding-top: 44px;
    }
-   #loader{
-    background: black url(../images/loder.gif) no-repeat center center;
-    background-size: 100%;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    z-index: 100;
+     
+  /* ----------adress boxxx--------- */
+  .address-box {
+    margin-left: 0%;
   }
-  
+  .form-group button{
+    width: 100%;
+  }
+    /* ----------adress boxxx--------- */
+
+    #loader{
+      background: black url(../images/loder.gif) no-repeat center center;
+      background-size: 100%;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: 100;
+    }
+
 } 
 
 /* ----iphon 5s ---- */
 
 
 @media (max-width:320px) {
-  .logo{
-    width: 180px;
-    padding-left: 0px;
-  }
+  
+/* -----nav and heder end  ---- */
+
+
+
+.logo{
+  width: 150px;
+  padding-left: 5%;
+  padding-top: 10px;
+}
+.nav-links ul li{
+  display: block;
+  
+}
+.nav-links{
+position: absolute;
+background:#000000 ;
+height: 100vh;
+width: 200px;
+top: 0;
+right: -200px;
+text-align: left;
+z-index: 1;
+transition: .4s;
+}
+nav .fas{
+  display: block;
+  margin: 10px;
+  font-size: 30px;
+  color: white;
+}
+nav .fa-times{
+  text-align: right;
+  padding-right: 10px;
+} 
+
+/* -----nav and heder end  ---- */
   .carousel{
     padding-top: 36.5px;
   }
@@ -638,23 +797,65 @@ font-weight: 350;
   .carousel{
     padding-top: 39px;
    }
-   #loader{
-    background: black url(../images/loder.gif) no-repeat center center;
-    background-size: 100%;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    z-index: 100;
+     
+  /* ----------adress boxxx--------- */
+  .address-box {
+    margin-left: 0%;
   }
+  .form-group button{
+    width: 100%;
+  }
+    /* ----------adress boxxx--------- */
+    #loader{
+      background: black url(../images/loder.gif) no-repeat center center;
+      background-size: 100%;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: 100;
+    }
 } 
 
 /* ----samsung fold ---- */
 
 @media (max-width:280px) {
-  .logo{
-    width: 150px;
-    padding-left: 0px;
-  }
+  
+/* -----nav and heder end  ---- */
+
+
+
+.logo{
+  width: 220px;
+  padding-left: 5%;
+  padding-top: 10px;
+}
+.nav-links ul li{
+  display: block;
+  
+}
+.nav-links{
+position: absolute;
+background:#000000 ;
+height: 100vh;
+width: 200px;
+top: 0;
+right: -200px;
+text-align: left;
+z-index: 1;
+transition: .4s;
+}
+nav .fas{
+  display: block;
+  margin: 10px;
+  font-size: 30px;
+  color: white;
+}
+nav .fa-times{
+  text-align: right;
+  padding-right: 10px;
+} 
+
+/* -----nav and heder end  ---- */
   .carousel{
     padding-top: 36.5px;
   }
@@ -677,14 +878,22 @@ font-weight: 350;
   .carousel{
     padding-top: 34px;
    }
-   #loader{
-    background: black url(../images/loder.gif) no-repeat center center;
-    background-size: 100%;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    z-index: 100;
+     
+  /* ----------adress boxxx--------- */
+  .address-box {
+    margin-left: 0%;
   }
+  .form-group button{
+    width: 100%;
+  }
+    /* ----------adress boxxx--------- */
+    #loader{
+      background: black url(../images/loder.gif) no-repeat center center;
+      background-size: 100%;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: 100;
+    }
 } 
-
 
